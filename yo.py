@@ -68,15 +68,28 @@ if Restodelmundo > 1250 * 15:
 
 
 
+"""
+abecedarrio = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",]
 
+for james in abecedarrio:
+    print(james)
+    if james == "l":
+        break
+        
+"""
+"""dame = input("dame una palabra:")
 
+es = 0
 
+for i in dame:
+    es = es+1
+print("tu frase tiene ",es,"letras")"""
 
+i=1
+while i <=100:
+    i = i+9
 
-
-
-
-
+    print(i)
 
 
 
